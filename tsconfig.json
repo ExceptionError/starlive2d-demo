@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "./dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@cubism/*": ["../cubism/src/*"]
+    },
+    "moduleResolution": "node",
+    "lib": ["ESNext", "DOM", "WebWorker"],
+  },
+  "include": [
+    "src/**/*.ts",
+    "../Core/live2dcubismcore.d.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
